@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <GridLayout
+        android:id="@+id/colorPalette"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:orientation="horizontal"
+        android:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Existing color buttons -->
+        <View
+            android:id="@+id/color1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="#FFCDD2"
+            android:clickable="true" />
+
+        <View
+            android:id="@+id/color2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="#F8BBD0"
+            android:clickable="true" />
+
+        <!-- Additional color buttons -->
+        <View
+            android:id="@+id/color3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="#E1BEE7"
+            android:clickable="true" />
+
+        <View
+            android:id="@+id/color4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="#D1C4E9"
+            android:clickable="true" />
+
+        <View
+            android:id="@+id/color5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="#C5CAE9"
+            android:clickable="true" />
+
+        <View
+            android:id="@+id/color6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="#BBDEFB"
+            android:clickable="true" />
+
+        <View
+            android:id="@+id/color7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="#B3E5FC"
+            android:clickable="true" />
+
+        <View
+            android:id="@+id/color8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="#B2EBF2"
+            android:clickable="true" />
+
+        <View
+            android:id="@+id/color9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="#B2DFDB"
+            android:clickable="true" />
+
+        <View
+            android:id="@+id/color10"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="#FFFFFF"
+            android:clickable="true" />
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
